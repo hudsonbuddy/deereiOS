@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCEE7BA8191973B1008B40A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEE7BA7191973B1008B40A1 /* Foundation.framework */; };
+		DCEE7BB6191973B1008B40A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEE7BB5191973B1008B40A1 /* XCTest.framework */; };
+		DCEE7BB7191973B1008B40A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEE7BA7191973B1008B40A1 /* Foundation.framework */; };
+		DCEE7BBC191973B1008B40A1 /* libDeereBTDriver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEE7BA4191973B1008B40A1 /* libDeereBTDriver.a */; };
+		DCEE7BC2191973B1008B40A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCEE7BC0191973B1008B40A1 /* InfoPlist.strings */; };
+		DCEE7BE319197735008B40A1 /* CanAlertPeripheralServer.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEE7BE219197735008B40A1 /* CanAlertPeripheralServer.m */; };
+		DCEE7BE6191C8960008B40A1 /* StatBox.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEE7BE5191C8960008B40A1 /* StatBox.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCEE7BBA191973B1008B40A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEE7B9C191973B1008B40A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCEE7BA3191973B1008B40A1;
+			remoteInfo = DeereBTDriver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCEE7BA2191973B1008B40A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DCEE7BA4191973B1008B40A1 /* libDeereBTDriver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDeereBTDriver.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEE7BA7191973B1008B40A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCEE7BB4191973B1008B40A1 /* DeereBTDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeereBTDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEE7BB5191973B1008B40A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DCEE7BBF191973B1008B40A1 /* DeereBTDriverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeereBTDriverTests-Info.plist"; sourceTree = "<group>"; };
+		DCEE7BC1191973B1008B40A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCEE7BE119197735008B40A1 /* CanAlertPeripheralServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanAlertPeripheralServer.h; sourceTree = "<group>"; };
+		DCEE7BE219197735008B40A1 /* CanAlertPeripheralServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanAlertPeripheralServer.m; sourceTree = "<group>"; };
+		DCEE7BE4191C8960008B40A1 /* StatBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatBox.h; sourceTree = "<group>"; };
+		DCEE7BE5191C8960008B40A1 /* StatBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatBox.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCEE7BA1191973B1008B40A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEE7BA8191973B1008B40A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEE7BB1191973B1008B40A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEE7BB6191973B1008B40A1 /* XCTest.framework in Frameworks */,
+				DCEE7BB7191973B1008B40A1 /* Foundation.framework in Frameworks */,
+				DCEE7BBC191973B1008B40A1 /* libDeereBTDriver.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCEE7B9B191973B1008B40A1 = {
+			isa = PBXGroup;
+			children = (
+				DCEE7BA9191973B1008B40A1 /* DeereBTDriver */,
+				DCEE7BBD191973B1008B40A1 /* DeereBTDriverTests */,
+				DCEE7BA6191973B1008B40A1 /* Frameworks */,
+				DCEE7BA5191973B1008B40A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCEE7BA5191973B1008B40A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCEE7BA4191973B1008B40A1 /* libDeereBTDriver.a */,
+				DCEE7BB4191973B1008B40A1 /* DeereBTDriverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCEE7BA6191973B1008B40A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCEE7BA7191973B1008B40A1 /* Foundation.framework */,
+				DCEE7BB5191973B1008B40A1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCEE7BA9191973B1008B40A1 /* DeereBTDriver */ = {
+			isa = PBXGroup;
+			children = (
+				DCEE7BE119197735008B40A1 /* CanAlertPeripheralServer.h */,
+				DCEE7BE219197735008B40A1 /* CanAlertPeripheralServer.m */,
+				DCEE7BAA191973B1008B40A1 /* Supporting Files */,
+				DCEE7BE4191C8960008B40A1 /* StatBox.h */,
+				DCEE7BE5191C8960008B40A1 /* StatBox.m */,
+			);
+			path = DeereBTDriver;
+			sourceTree = "<group>";
+		};
+		DCEE7BAA191973B1008B40A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCEE7BBD191973B1008B40A1 /* DeereBTDriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCEE7BBE191973B1008B40A1 /* Supporting Files */,
+			);
+			path = DeereBTDriverTests;
+			sourceTree = "<group>";
+		};
+		DCEE7BBE191973B1008B40A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCEE7BBF191973B1008B40A1 /* DeereBTDriverTests-Info.plist */,
+				DCEE7BC0191973B1008B40A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCEE7BA3191973B1008B40A1 /* DeereBTDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEE7BC7191973B1008B40A1 /* Build configuration list for PBXNativeTarget "DeereBTDriver" */;
+			buildPhases = (
+				DCEE7BA0191973B1008B40A1 /* Sources */,
+				DCEE7BA1191973B1008B40A1 /* Frameworks */,
+				DCEE7BA2191973B1008B40A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeereBTDriver;
+			productName = DeereBTDriver;
+			productReference = DCEE7BA4191973B1008B40A1 /* libDeereBTDriver.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCEE7BB3191973B1008B40A1 /* DeereBTDriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEE7BCA191973B1008B40A1 /* Build configuration list for PBXNativeTarget "DeereBTDriverTests" */;
+			buildPhases = (
+				DCEE7BB0191973B1008B40A1 /* Sources */,
+				DCEE7BB1191973B1008B40A1 /* Frameworks */,
+				DCEE7BB2191973B1008B40A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCEE7BBB191973B1008B40A1 /* PBXTargetDependency */,
+			);
+			name = DeereBTDriverTests;
+			productName = DeereBTDriverTests;
+			productReference = DCEE7BB4191973B1008B40A1 /* DeereBTDriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCEE7B9C191973B1008B40A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = repco;
+			};
+			buildConfigurationList = DCEE7B9F191973B1008B40A1 /* Build configuration list for PBXProject "DeereBTDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCEE7B9B191973B1008B40A1;
+			productRefGroup = DCEE7BA5191973B1008B40A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCEE7BA3191973B1008B40A1 /* DeereBTDriver */,
+				DCEE7BB3191973B1008B40A1 /* DeereBTDriverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCEE7BB2191973B1008B40A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEE7BC2191973B1008B40A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCEE7BA0191973B1008B40A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEE7BE319197735008B40A1 /* CanAlertPeripheralServer.m in Sources */,
+				DCEE7BE6191C8960008B40A1 /* StatBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEE7BB0191973B1008B40A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCEE7BBB191973B1008B40A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCEE7BA3191973B1008B40A1 /* DeereBTDriver */;
+			targetProxy = DCEE7BBA191973B1008B40A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCEE7BC0191973B1008B40A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCEE7BC1191973B1008B40A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCEE7BC5191973B1008B40A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCEE7BC6191973B1008B40A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCEE7BC8191973B1008B40A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DeereBTDriver.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeereBTDriver/DeereBTDriver-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DCEE7BC9191973B1008B40A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DeereBTDriver.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeereBTDriver/DeereBTDriver-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DCEE7BCB191973B1008B40A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeereBTDriver/DeereBTDriver-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DeereBTDriverTests/DeereBTDriverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DCEE7BCC191973B1008B40A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeereBTDriver/DeereBTDriver-Prefix.pch";
+				INFOPLIST_FILE = "DeereBTDriverTests/DeereBTDriverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCEE7B9F191973B1008B40A1 /* Build configuration list for PBXProject "DeereBTDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEE7BC5191973B1008B40A1 /* Debug */,
+				DCEE7BC6191973B1008B40A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEE7BC7191973B1008B40A1 /* Build configuration list for PBXNativeTarget "DeereBTDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEE7BC8191973B1008B40A1 /* Debug */,
+				DCEE7BC9191973B1008B40A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEE7BCA191973B1008B40A1 /* Build configuration list for PBXNativeTarget "DeereBTDriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEE7BCB191973B1008B40A1 /* Debug */,
+				DCEE7BCC191973B1008B40A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCEE7B9C191973B1008B40A1 /* Project object */;
+}
